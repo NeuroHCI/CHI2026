@@ -14,17 +14,34 @@ const { banner, overview, agenda, organizers, contact } = homepage.data;
   {
     banner.image && (
       <div class="w-full">
-        <ImageMod
-          src={banner.image}
-          height={800}
-          width={1920}
-          alt="banner"
-          format="webp"
-          loading="eager"
-          decoding="async"
-          fetchpriority="high"
-          class="w-full h-auto"
-        />
+        {/* Desktop Banner */}
+        <div class="hidden md:block">
+          <ImageMod
+            src={banner.image}
+            height={800}
+            width={1920}
+            alt="banner"
+            format="webp"
+            loading="eager"
+            decoding="async"
+            fetchpriority="high"
+            class="w-full h-auto"
+          />
+        </div>
+        {/* Mobile Banner */}
+        <div class="block md:hidden">
+          <ImageMod
+            src="/images/Pins Teaser.jpg"
+            height={800}
+            width={800}
+            alt="banner"
+            format="webp"
+            loading="eager"
+            decoding="async"
+            fetchpriority="high"
+            class="w-full h-auto"
+          />
+        </div>
       </div>
     )
   }
@@ -137,7 +154,7 @@ const { banner, overview, agenda, organizers, contact } = homepage.data;
               alt="Overview"
               loading="eager"
               fetchpriority="high"
-              class="w-1/2 mx-auto"
+              class="w-1/3 md:w-1/2 mx-auto"
             />
           </div>
         </div>
