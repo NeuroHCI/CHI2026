@@ -14,7 +14,7 @@ banner:
     link: "/NeuroHCI CHI Meetup 2026.pdf"
 
 overview:
-  title: "Abstract"
+  title: "About the Meet-up"
   content: "This meet-up will bring together researchers and practitioners interested in the timely intersection of neuroscience and human–computer interaction (NeuroHCI). Advances in performance and accessibility of methods such as EEG, fNIRS, BCIs, and biosensing open new possibilities for design and interaction while also raising conceptual, technical, and ethical challenges. The session will employ engaging, interactive activities to maximize dialog, including an exercise that invites participants to experience embodied approaches to interaction. Our goal is to catalyze interdisciplinary collaboration, strengthen and grow the NeuroHCI community, and identify promising directions for future research and practice."
   image: "/images/neurohci-abstract.svg"
 
@@ -101,9 +101,9 @@ organizers:
 
 contact:
   title: "Contact Us"
-  description: "Primary Contact: Amber Maimon"
-  email: "maimon.amber@gmail.com"
+  description: "Primary Contact: Amber Maimon and Iddo Wald"
+  email: "neurointeraction@gmail.com"
   button:
     label: "Send Email"
-    link: "mailto:maimon.amber@gmail.com"
+    link: "mailto:neurointeraction@gmail.com"
 ---
