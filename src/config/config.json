@@ -2,7 +2,7 @@
   "site": {
     "title": "NeuroHCI Meetup",
     "base_url": "",
-    "base_path": "/",
+    "base_path": "/CHI2026",
     "trailing_slash": false,
     "favicon": "/images/favicon.png",
     "logo": "",

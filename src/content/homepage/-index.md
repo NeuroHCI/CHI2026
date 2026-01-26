@@ -11,7 +11,7 @@ banner:
     enable: true
     label: "Read Proposal"
     # link: "https://doi.org/10.1145/3772363.3778884"
-    link: "/NeuroHCI CHI Meetup 2026.pdf"
+    link: "/CHI2026/NeuroHCI CHI Meetup 2026.pdf"
 
 overview:
   title: "About the Meet-up"
