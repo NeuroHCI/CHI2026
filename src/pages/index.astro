@@ -4,9 +4,12 @@ import Social from "@/components/Social.astro";
 import Base from "@/layouts/Base.astro";
 import { getListPage } from "@/lib/contentParser.astro";
 import { markdownify } from "@/lib/utils/textConverter";
+import { getEntry } from "astro:content";
+import CallToAction from "@/partials/CallToAction.astro";
 
 const homepage = await getListPage("homepage", "-index");
 const { banner, overview, agenda, organizers, contact } = homepage.data;
+const call_to_action = await getEntry("ctaSection", "call-to-action");
 ---
 
 <Base>
@@ -165,6 +168,9 @@ const { banner, overview, agenda, organizers, contact } = homepage.data;
       </div>
     </div>
   </section>
+
+  <!-- CTA -->
+  <CallToAction call_to_action={call_to_action} />
 
   <!-- Agenda -->
   <section class="section" id="agenda">

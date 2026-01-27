@@ -1,10 +1,10 @@
 ---
 enable: true
-title: "Ready to build your next project with Astro?"
-image: "/images/call-to-action.png"
-description: "Experience the future of web development with Astroplate and Astro. Build lightning-fast static sites with ease and flexibility."
+title: "Join the NeuroHCI Community"
+image: "/images/Neuron.svg"
+description: "Connect with other researchers and practitioners in our Slack channel to share ideas and collaborate before, during, and after CHI 2026."
 button:
   enable: true
-  label: "Get Started Now"
-  link: "https://github.com/zeon-studio/astroplate"
+  label: "Join our Slack"
+  link: "https://join.slack.com/t/neurohcicommunity/shared_invite/zt-3ol09jv5d-QVcMIa~j5GLsu_J93~Sd7w"
 ---
